@@ -1,5 +1,7 @@
 # Dojo Typing & ChatGPT
 
+[Start by opening and fork StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-uwauqy)
+
 There is an awful bug 🐞 and my tests can't pass 😢
 Can you find it ? I think it reminds me of something I already saw somewhere ...
 
