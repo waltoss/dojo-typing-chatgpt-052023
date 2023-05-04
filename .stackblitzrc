@@ -1,0 +1,9 @@
+{
+  "installDependencies": true,
+  "startCommand": "npm run test",
+  "env": {
+    "ENABLE_CJS_IMPORTS": true,
+    "API_ENDPOINT": "http://localhost",
+    "DEBUG_PRINT_LIMIT": 0
+  }
+}
