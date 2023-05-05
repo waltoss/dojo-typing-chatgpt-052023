@@ -15,3 +15,4 @@ Do you have an idea to fix it **for good** ?
 If you are stucked I can give some some hints
 
 - [Hint #1](./hints/hint-1.md)
+- [Hint #2](./hints/hint-2.md)

@@ -12,7 +12,7 @@ The issue is here
 
 ### Root cause analysis
 
-In javascript `this` refers to the caller of the method which is **not** always the instance of class that owns the method.
+In javascript `this` refers to the caller of the method which is **not** always the instance of class that owns the method. See [MDN reference 'this' operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 
 Since you pass a reference to the instance of the method, the caller is not `client` but and mutation `options`
 
@@ -20,10 +20,12 @@ You can see it easily with the debugger, to see it easily on Stackblitz add a `d
 
 ```ts
 // client.ts
+class Client {
   async postPatientEvent(event: CreatePatientEvent): Promise<PatientEvent> {
     debugger; // add it here
-    return this.post('/patient', event);
+    return this.post('/patient', event); // 'this' is not an instance of Client
   }
+}
 ```
 
 You'll see that the caller is
