@@ -16,3 +16,5 @@ If you are stucked I can give some some hints
 
 - [Hint #1](./hints/hint-1.md)
 - [Hint #2](./hints/hint-2.md)
+- [Hint #3](./hints/hint-3.md)
+- [Hint #4](./hints/hint-4.md)
