@@ -2,13 +2,13 @@
 
 [Start by opening and fork StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-uwauqy)
 
-There is an awful bug 🐞 and my tests can't pass 😢
-Can you find it ? I think it reminds me of something I already saw somewhere ...
+I just added a new page to my application that make a simple API call when I submit a form
 
-I'm sick of having the same issue, and I'm afraid it will happen again. We have a huge backlog, and new junior developpers are coming ...
-Do you have an idea to fix it **for good** ?
+But there is an awful bug 🐞 and my tests can't pass 😢 Can you find it ? I think it reminds me of something I already saw somewhere ...
 
-⚠️ You can only modify `src/AppEventModal.tsx`, everything else is working fine ...
+Also I'm sick of having the same issue, and I'm afraid it will happen again. There is a new junior developer coming and I wan’t to make sure he won’t make the same mistake as I did ... Do you have an idea to fix it **for good** ?
+
+⚠️ You can only modify `src/AppEventModal.tsx`, everything else is working fine ...
 
 # Hints
 
